@@ -17,14 +17,14 @@ import java.io.IOException;
 public class SessionFactoryConfiguration {
     // mybatis-config.xml配置文件的路径
     @Value("${mybatis_config_file}")
-    private static String mybatisConfigFilePath;
+    private String mybatisConfigFilePath;
 
     // mybatis mapper文件所在路径
     @Value("${mapper_path}")
-    private static String mapperPath;
+    private String mapperPath;
 
     // 实体类所在的package
-    @Value("${type_alias_package}")
+    @Value("${entity_package}")
     private String entityPackage;
 
     @Autowired

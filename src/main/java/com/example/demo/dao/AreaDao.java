@@ -17,7 +17,7 @@ public interface AreaDao {
      *
      * @return area
      */
-    Area queryAreaById(int areaId);
+    Area queryAreaById(int areaID);
 
     /**
      * 插入区域信息
@@ -38,8 +38,8 @@ public interface AreaDao {
     /**
      * 删除区域信息
      *
-     * @param areaId
+     * @param areaID
      * @return
      */
-    int deleteArea(int areaId);
+    int deleteArea(int areaID);
 }

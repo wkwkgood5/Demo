@@ -9,7 +9,7 @@
         FROM tb_area
         ORDER BY priority
         DESC
-    </select>>
+    </select>
     <select id="queryAreaById" resultType="com.example.demo.Entity.Area">
 		SELECT area_id, area_name,
 		priority, create_time, last_edit_time
